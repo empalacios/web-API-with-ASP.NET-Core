@@ -27,3 +27,11 @@ dotnet watch run
 
 ### Update lauchUrl and applicationUrl
 Update the launchUrl from `swagger` to `api/TodoItems` and applicationUrl from `localhost` to `0.0.0.0` in order to listen from external connections in all IP addresses of the development virtual machine.
+
+### Create the Model Class and Controller
+Execute the following steps from the tutorial
+- Add a model class
+- Add a database context
+- Add the TodoContext database context
+- Register the database context
+- Scaffold a controller
