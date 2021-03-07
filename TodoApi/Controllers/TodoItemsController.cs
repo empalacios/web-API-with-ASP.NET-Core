@@ -111,9 +111,7 @@ namespace TodoApi.Controllers
         }
 
         private bool TodoItemExists(long id)
-        {
-            return _context.TodoItems.Any(e => e.Id == id);
-        }
+            => _context.TodoItems.Any(e => e.Id == id);
 
         private static TodoItemDTO ItemToDTO(TodoItem todoItem)
             => new TodoItemDTO
