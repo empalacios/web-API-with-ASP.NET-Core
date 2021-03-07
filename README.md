@@ -9,3 +9,12 @@ Steps followed from https://docs.microsoft.com/es-es/dotnet/core/install/linux-d
 
 ### NuGet
 Installation of NuGet package manager for .NET projects and update to latest version
+
+## Tutorial Steps
+### Web API Project Creation
+Creation of the project in /vagrant in order to include the project folder in the repository.
+```
+dotnet new webapi -o /vagrant/TodoApi
+cd /vagrant/TodoApi
+dotnet add package Microsoft.EntityFrameworkCore.InMemory
+```
